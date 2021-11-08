@@ -1,0 +1,30 @@
+{
+        "imposters": [
+                {
+                        "port": "6969",
+                        "protocol": "http",
+                        "name": "user",
+                        "stubs": [
+                                {
+                                        "predicates": [ <% include user/getData/getdata_predicates.ejs %> ],
+                                        "responses": [ <% include user/getData/getdata_response.ejs %> ]
+                                }, 
+                                {
+                                        "predicates": [ <% include user/createUser/create_predicates.ejs %> ],
+                                        "responses": [ <% include user/createUser/create_response.ejs %> ]
+                                }, 
+                                {
+                                        "predicates": [ <% include user/updateUser/updateUser_predicates.ejs %> ],
+                                        "responses": [ <% include user/updateUser/updateUser_response.ejs %> ]
+                                },
+                                {
+                                        "predicates": [ <% include user/deleteUser/deleteuser_predicates.ejs %> ],
+                                        "responses": [ <% include user/deleteUser/deleteuser_response.ejs %> ]
+                                },
+                                {
+                                        "responses": [ <% include proxy.ejs %> ]
+                                }
+                        ]
+                }
+        ]
+}

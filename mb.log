@@ -1,0 +1,8 @@
+{"level":"info","message":"[mb:2525] mountebank v2.5.0 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2021-11-08T14:32:01.713Z"}
+{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2021-11-08T14:32:01.763Z"}
+{"level":"info","message":"[http:6969 user] Open for business...","timestamp":"2021-11-08T14:32:01.783Z"}
+{"level":"info","message":"[mb:2525] POST /profile/v1/user/createdata","timestamp":"2021-11-08T14:32:03.635Z"}
+{"level":"info","message":"[http:6969 user] ::1:12779 => POST /profile/v1/user/createdata","timestamp":"2021-11-08T14:33:02.459Z"}
+{"level":"info","message":"[http:6969 user] ::1:12789 => DELETE /profile/v1/user/deleteuser","timestamp":"2021-11-08T14:34:06.824Z"}
+{"level":"info","message":"[http:6969 user] ::1:12807 => PUT /profile/v1/user/updateUser","timestamp":"2021-11-08T14:35:57.726Z"}
+{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2021-11-08T14:36:19.002Z"}
